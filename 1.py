@@ -22,7 +22,7 @@ def draw_hare(surface,x,y,width,height,color):
     draw_body(surface,x,y + height//4,width//2,height//2,color)
     draw_head(surface,x,y-height//8,height//4,color)
     for ear_x in (x-height//16,x+height//16):
-        draw_ear(surface,ear_x,y-height//2 + ear_height//2,width//8,height//3,color)
+        draw_ear(surface,ear_x,y-height//2 + height//8,width//8,height//3,color)
     for leg_x in (x-width//4,x+width//2):
         draw_leg(surface,leg_x,y+height//2 - leg_height//2,width//4,leg_height,color)
     
